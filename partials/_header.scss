@@ -1,0 +1,26 @@
+.navbar{
+    color: $colorWhite;
+    &-default{
+        background-color: $colorBlue;
+    }
+    &-brand{
+        color: $colorWhite!important;
+        @include fontSize(36px);
+        font-weight: bold;
+    }
+    &-nav{
+        li{
+            a{
+                color: $colorLightBlue!important;
+                padding: 0;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-left:5px;
+                padding-right: 5px;
+            }
+        }
+    }
+    &-border-right{
+            border-right: 1px solid $colorWhite;
+    }
+}

@@ -1,0 +1,19 @@
+//never write CSS in here 
+
+//Variables should always be on top
+@import "partials/variables";
+//Then mixins
+@import "partials/mixins";
+//Then layout
+@import "partials/layout";
+//
+@import "partials/blocktags";
+//Then header
+@import "partials/header";
+
+
+
+/////// then everything between header and footer
+
+// Then footer
+@import "partials/footer";

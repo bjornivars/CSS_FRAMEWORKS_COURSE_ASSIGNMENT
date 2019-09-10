@@ -1,0 +1,30 @@
+.carousel{
+    &-img{
+        height: 40em;
+        width: 100%;
+
+
+    }
+    &-inner{
+
+    }
+    &-indicators{
+        li{
+            height: 5px;
+            width: 30px;            
+            border: none;
+            border-radius: 0;
+            background-color: rgba($color: #ffffff, $alpha: .5);
+        }
+        .active{
+            height: 5px;
+            width: 30px;
+            margin: 1px;
+        }
+    }
+}
+
+
+.thumbnail{
+    border: none;
+}
