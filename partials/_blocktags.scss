@@ -6,13 +6,19 @@ h1{
 }
 
 a{
-    color: #ffff;
+    color: $colorWhite;
     &:hover{
-        color: #000000;
+        color: $colorBlack;
+        background-color: none;
     }
 }
 
 .btn{
     background-color: $colorOrange;
     border: none;
+    color: $colorWhite;
 }
+
+
+
+

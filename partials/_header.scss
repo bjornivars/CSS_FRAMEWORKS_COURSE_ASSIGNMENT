@@ -1,22 +1,31 @@
 .navbar{
     color: $colorWhite;
-    &-default{
-        background-color: $colorBlue;
-    }
+    background-color: $colorBlue;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
     &-brand{
         color: $colorWhite!important;
         @include fontSize(36px);
-        font-weight: bold;
     }
     &-nav{
         li{
             a{
-                color: $colorLightBlue!important;
+                color: $colorLightBlue;
                 padding: 0;
                 margin-top: 15px;
                 margin-bottom: 15px;
                 padding-left:5px;
                 padding-right: 5px;
+                @include fontSize(20px);
+                &:hover{
+                    color: $colorHover;
+                    background-color: transparent;
+                }
+            }
+            .active-tag{
+                color: $colorWhite;
+                font-weight: bold;
             }
         }
     }

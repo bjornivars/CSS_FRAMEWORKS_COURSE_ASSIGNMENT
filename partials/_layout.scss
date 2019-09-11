@@ -1,3 +1,7 @@
+.page-width{
+    width: $pageWidth;
+    margin: auto;
+}
 .carousel{
     &-img{
         height: 40em;
@@ -24,7 +28,32 @@
     }
 }
 
+.container{
+    &-form{
+        margin: auto;
+        width: 60%;
+    }
+}
+
+label{
+    font-weight: 500;
+}
+
+.justsomepadding{
+    padding-bottom: $justsomepadding;
+}
 
 .thumbnail{
+    padding: 0;
     border: none;
-}
+    &-packages{
+            border: 1px solid $colorOrange;
+            border-radius: 0;
+            &:hover{
+                background-color: #fdf6ec;
+            }
+        }
+    }
+ .caption{
+    padding: 0;
+    }
