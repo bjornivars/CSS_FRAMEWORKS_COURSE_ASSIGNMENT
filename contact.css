@@ -70,6 +70,7 @@ a:hover {
 .btn {
   background-color: #ff9000;
   border: none;
+  border-radius: 0;
   color: #FFFFFF;
 }
 
